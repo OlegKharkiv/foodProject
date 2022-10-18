@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./js/modules/calc.js":
+/***/ "./js/modules/calc.js": 
 /*!****************************!*\
   !*** ./js/modules/calc.js ***!
   \****************************/
