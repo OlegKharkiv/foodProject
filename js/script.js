@@ -8,7 +8,7 @@ import timer from './modules/timer';
 import {openModal} from './modules/modal';
 
 window.addEventListener('DOMContentLoaded', function () {
-    const modalTimerId = setTimeout(() => openModal('.modal', modalTimerId), 50000);
+    const modalTimerId = setTimeout(() => openModal('.modal', modalTimerId), 60000);
 
     tabs('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
     calc();

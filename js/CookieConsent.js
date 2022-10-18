@@ -1,5 +1,5 @@
 
-window.addEventListener('DOMContentLoaded', () => {
+window.addEventListener('DOMContentLoaded', () => { 
 
     // const cookieStorage = {
     //     getItem: (key) => {
@@ -39,7 +39,7 @@ window.addEventListener('DOMContentLoaded', () => {
     // btnCancel.addEventListener('click', () => {
     //     toggleStorage(false);
     //     popup.classList.remove('popup_active');
-    // });
+    // }); 
 
     class cookieConsent {
         constructor({popup, btnConfirm, btnCancel, activeClass = ''} = {}) {
