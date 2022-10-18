@@ -20,4 +20,4 @@ async function getResource (url) {
 }
 
 export {postData};
-export {getResource};
+export {getResource};  
