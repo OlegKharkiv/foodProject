@@ -1,3 +1,5 @@
+require('es6-promise').polyfill();
+import 'nodelist-foreach-polyfill';
 import tabs from './modules/tabs';
 import calc from './modules/calc';
 import cards from './modules/cards';
@@ -8,7 +10,7 @@ import timer from './modules/timer';
 import {openModal} from './modules/modal';
 
 window.addEventListener('DOMContentLoaded', function () {
-    const modalTimerId = setTimeout(() => openModal('.modal', modalTimerId), 60000);
+    const modalTimerId = setTimeout(() => openModal('.modal', modalTimerId), 50000);
 
     tabs('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
     calc();
